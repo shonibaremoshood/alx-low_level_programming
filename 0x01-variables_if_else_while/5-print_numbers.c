@@ -10,8 +10,8 @@ int main(void)
 	i = 0;
 	while (i < 10)
 	{
-		i++;
 		printf("%d", i);
+		i = +1;
 	}
 	printf("\n");
 	return (0);
