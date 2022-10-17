@@ -11,7 +11,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
 	for (base = 'a'; base <= 'f'; base++)
-		putchar(num);
+		putchar(base);
 	putchar('\n');
 	return (0);
 }
